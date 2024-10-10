@@ -15,4 +15,5 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec))
 
 app.use("/api", allRoutes)
 
+
 export default app
